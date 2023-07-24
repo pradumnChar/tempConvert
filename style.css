@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right,
+    #8e9eab,
+    #eef2f3);
+}
+
+h1{
+    padding: 125px;
+    text-align: center;
+    color:#eef2f3;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.mainBranch {
+    background-color:a;
+    border: #eef2f3 solid 3px;
+    border-radius: 35px;
+    border-style:groove;
+    width: 30%;
+    /* Centering the div*/
+    top: 50%;
+    left: 50%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.subContain{
+    width: 80%;
+}
+
+label{
+    padding: 10px 20px;
+    color:#eef2f3;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+input{
+    text-align: center;
+    border: #8e9eab solid 2px;
+    border-style: groove;
+    border-radius: 35px;
+
+
+    margin: 8px;
+    width: 70%;
+    height: 40px;
+    
+    font-size: 12px;
+    font-weight: 550;
+   
+}
+
+
+
+/* Pradumn Jadli */
